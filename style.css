@@ -17,7 +17,7 @@ body{
 main{
     background-color:  hsl(0, 0%, 100%);
     padding: 1.2em;
-    max-width: 85%;
+    max-width: 80%;
     border: 2px solid hsl(0, 0%, 7%);
     border-right : 10px solid hsl(0, 0%, 7%);
     border-bottom: 10px solid hsl(0, 0%, 7%);
@@ -28,7 +28,7 @@ main{
     border-radius: 20px;
 }
 .card-data{
-    width: 100%;
+    width: clamp(1.5em, 5vw 3em);
    
 }
 .card-data #learn{
@@ -40,13 +40,14 @@ main{
     font-family: "figtree" sans-serif;
     font-weight: 900;
 }
-main h2,p{
+main h1,p{
 padding-top: 0.5em;
    
 }
-h2{ 
+h1{ 
     font-family: "Figtree", sans-serif ;
-    font-weight: 800;
+    font-weight: 700;
+   
     
 }
 p{
