@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    display: flex;
+    height: 100svh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:  hsl(47, 88%, 63%)
+   
+}
+
+main{
+    background-color:  hsl(0, 0%, 100%);
+    padding: 1.2em;
+    max-width: 85%;
+    border: 2px solid hsl(0, 0%, 7%);
+    border-right : 10px solid hsl(0, 0%, 7%);
+    border-bottom: 10px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+}
+.illustration-img{
+    width: 100%;
+    border-radius: 20px;
+}
+.card-data{
+    width: 100%;
+   
+}
+.card-data #learn{
+    background-color:  hsl(47, 88%, 63%);
+    width: fit-content;
+    margin-top: 1em;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-family: "figtree" sans-serif;
+    font-weight: 900;
+}
+main h2,p{
+padding-top: 0.5em;
+   
+}
+h2{ 
+    font-family: "Figtree", sans-serif ;
+    font-weight: 800;
+    
+}
+p{
+  color:  hsl(0, 0%, 42%);
+  line-height: 1.5;
+}
+.avatar{
+    padding-top: 1em;
+    display: inline-flex;
+    gap: 0.8rem;
+
+}
+.avatar span{
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+#avater-img{
+    width: 15%;
+  
+  
+}
+
